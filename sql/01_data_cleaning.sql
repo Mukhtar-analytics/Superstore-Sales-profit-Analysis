@@ -7,7 +7,7 @@
 -- step 1: Data staging and Raw Data Preservation 
 -- creating a staging table (orders1) to preserve the raw dataset (orders) 
 select * 
-from orders1;
+from orders;
 
 
 create table orders1
