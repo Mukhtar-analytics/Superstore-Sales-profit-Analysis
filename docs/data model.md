@@ -2,7 +2,7 @@
 
 This project uses a **Star Schema** design in Power BI to support efficient DAX calculations and clear, scalable analysis. The raw, cleaned dataset (`orders1`) produced by the SQL pipeline was decomposed in Power Query into one fact table and five dimension tables.
 
-![Star Schema Model](../assets/star_schema_model.png)
+![Star Schema Model](../assets/star_schema_model.png.png)
 
 ## Data Sources
 
