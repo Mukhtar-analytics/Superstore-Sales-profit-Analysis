@@ -14,7 +14,7 @@ FROM orders1;
 -- EDA Step 2: Monthly Sales & Profit Trends
 -- =========================================================
 SELECT 
-    DATE_FORMAT(`Order Date`, '%Y') AS `year_month`,
+    DATE_FORMAT(`Order Date`, '%m/%Y') AS `year_month`,
     COUNT(DISTINCT `Order ID`) AS total_orders,
     ROUND(SUM(Sales), 2) AS total_sales,
     ROUND(SUM(Profit), 2) AS total_profit
